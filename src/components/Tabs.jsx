@@ -1,7 +1,5 @@
 import { TABS } from "../redux/actions/type";
-
 import { useDispatch } from "react-redux";
-
 import { toggleTab } from "../redux/actions";
 
 const Tabs = ({ currentTab }) => {
